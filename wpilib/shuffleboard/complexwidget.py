@@ -5,8 +5,8 @@
 # must be accompanied by the FIRST BSD license file in the root directory of
 # the project.
 # ----------------------------------------------------------------------------
-from ..sendablebuilder import SendableBuilder
-from ..sendable import Sendable
+from .. import SendableBuilder
+from .. import Sendable
 from .widget import ShuffleboardWidget
 from .container import ShuffleboardContainer
 

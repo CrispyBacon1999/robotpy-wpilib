@@ -5,7 +5,7 @@
 # must be accompanied by the FIRST BSD license file in the root directory of
 # the project.
 # ----------------------------------------------------------------------------
-from ..driverstation import DriverStation
+from .. import DriverStation
 from networktables import NetworkTablesInstance
 from .eventimportance import EventImportance
 

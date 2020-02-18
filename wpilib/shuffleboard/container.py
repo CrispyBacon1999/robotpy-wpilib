@@ -10,7 +10,7 @@ from typing import TYPE_CHECKING, List, Optional, Union, overload
 
 from networktables.entry import NetworkTableEntry
 from .builtinlayouts import BuiltInLayouts
-from ..sendable import Sendable
+from .. import Sendable
 
 if TYPE_CHECKING:
     from .complexwidget import ComplexWidget
